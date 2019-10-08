@@ -1,7 +1,13 @@
 body{
-
+    background-image: url(images/perfect-picture-movie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .image-frame {
-    
+
+}
+
+form {
+
 }
