@@ -1,6 +1,6 @@
 body{
     background-image: url(images/bottom-third.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
     margin: 0;
@@ -22,26 +22,28 @@ body{
 
 .content {
     display: block;
-    margin-bottom: 50px;
+    /* margin-bottom: 35px; */
 }
 
 .title-frame {
-    display: block;
     float: left;
-    width: 50%;
+    width: calc(50% - 40px);
     max-height: 280px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+    margin-right: 40px;
 }
 
 h2 {
     font-size: 2.5em;
     font-weight: 400;
-    padding: 15px;
+    padding: 15px 0;
 }
 
 form {
     display: block;
-    margin-top: 80px;
+    margin-top: 50px;
+    padding: 5%;
+    text-align: center;
 }
 
 label {
@@ -85,11 +87,22 @@ button:hover{
     body{
         background-image: url(images/bottom-third-1000.jpg);
     }
+
 }
 
 @media(max-width:700px){
     body{
         background-image: url(images/bottom-third-700.jpg);
+    }
+
+    .content {
+        padding: 5%;
+    }
+
+    .title-frame {
+        float: none;
+        display: block;
+        margin: 0 auto;
     }
 
     .title-poster{
@@ -99,6 +112,10 @@ button:hover{
     .title-poster-700{
         display: block;
         width: 100%;
+    }
+
+    h2, form{
+        text-align: center;
     }
 }
 
