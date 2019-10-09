@@ -3,14 +3,12 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom center;
-    /* position: relative; */
     margin: 0;
     padding: 0;
     border: 0;
     min-height: 100vh;
     font-size: 18px;
-    font-family: "Questrial";
-    /* font-family: Helvetica, Arial, sans-serif; */
+    font-family: "Questrial", sans-serif;
     color: #282564;
 }
 
@@ -23,21 +21,8 @@ body{
 }
 
 .content {
-    /* background-image: url(images/perfect-picture-movie.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 60vh;
-    top: 0;
-    width: 100%; */
     display: block;
     margin-bottom: 50px;
-    
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease;
 }
 
 .title-frame {
@@ -56,7 +41,6 @@ h2 {
 
 form {
     display: block;
-    /* float: right; */
     margin-top: 80px;
 }
 
@@ -67,23 +51,34 @@ label {
 input {
     outline: 0;
     border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 5px;
+    border-radius: 5px 0;
+    font-size: 16px;
+    padding: 8px;
     margin-top: 10px;
-    font-family: "Questrial";
+    font-family: "Questrial", sans-serif;
 }
 
 button {
-    font-size: 23px;
-    border-radius: 5px;
-    display: block;
+    font-size: 16px;
+    border-radius: 0 5px;
+    display: inline-block;
     margin-top: 10px;
     border: none;
     color: white;
-    background: #282564;
-    font-family: "Questrial";
-    padding: 4px 9px;
+    background: #0c0942;
+    font-family: "Questrial", sans-serif;
+    padding: 8px 12px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+button:hover{
+    color: cyan;
+    background: #0b0468;
+    cursor: pointer;
 }
 
 @media(max-width:1000px){
