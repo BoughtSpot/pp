@@ -1,16 +1,21 @@
 body{
     background-image: url(images/bottom-third.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center bottom;
-    position: relative;
+    background-position: bottom center;
+    /* position: relative; */
     margin: 0;
     padding: 0;
     border: 0;
+    min-height: 100vh;
 }
 
 .title-poster {
     width: 100%;
+}
+
+.title-poster-700 {
+    display: none;
 }
 
 .content {
@@ -21,10 +26,9 @@ body{
     top: 60vh;
     top: 0;
     width: 100%; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: max-content;
-    grid-gap: 3%;
+    display: block;
+    margin-bottom: 50px;
+    
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
     -ms-transition: all .25s ease;
@@ -32,10 +36,36 @@ body{
     transition: all .25s ease;
 }
 
-.image-frame {
-    
+.title-frame {
+    display: block;
+    float: left;
+    width: 50%;
+    max-height: 280px;
+    margin-bottom: 50px;
 }
 
 form {
+    display: block;
+    /* float: right; */
+}
 
+@media(max-width:1000px){
+    body{
+        background-image: url(images/bottom-third-1000.jpg);
+    }
+}
+
+@media(max-width:700px){
+    body{
+        background-image: url(images/bottom-third-1000.jpg);
+    }
+
+    .title-poster{
+        display: none;
+    }
+
+    .title-poster-700{
+        display: block;
+        width: 100%;
+    }
 }
