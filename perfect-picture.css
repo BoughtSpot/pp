@@ -41,7 +41,7 @@ nav {
     padding: 0 2.5px;
 }
 
-.nav-item:hover{
+.nav-item a:hover{
     color: #A40A49;
 }
 
