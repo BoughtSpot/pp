@@ -10,6 +10,7 @@ body{
     font-size: 18px;
     font-family: "Questrial", sans-serif;
     color: #282564;
+    scroll-behavior: auto;
 }
 
 a {
