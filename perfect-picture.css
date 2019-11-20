@@ -89,6 +89,8 @@ h2 {
 section {
     background-size: cover;
     min-height: 500px;
+    margin: 0;
+    padding: 20px 0;
 }
 
 .s-synopsis {
@@ -99,7 +101,7 @@ section {
     background-image: url(images/adjetey.jpg);
 }
 
-.s-showtime {
+.s-showtimes {
     background-image: url(images/lydia.jpg);
 }
 
