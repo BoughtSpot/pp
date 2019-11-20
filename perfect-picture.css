@@ -86,6 +86,24 @@ h2 {
     padding: 15px 0;
 }
 
+section {
+    background-size: cover;
+    min-height: 500px;
+}
+
+.s-synopsis {
+    background-image: url(images/jackie.jpg);
+}
+
+.s-trailer {
+    background-image: url(images/adjetey.jpg);
+}
+
+.s-showtime {
+    background-image: url(images/lydia.jpg);
+}
+
+
 .section-header {
     text-align: center;
     text-transform: uppercase;
