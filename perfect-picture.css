@@ -34,6 +34,7 @@ a {
 
 p {
     line-height: 1.5;
+    color: #333;
 }
 
 nav {
@@ -93,6 +94,17 @@ section {
     padding: 20px 0;
 }
 
+.section-header {
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 700;
+}
+
+#showtimes {
+    color: #fff;
+}
+
 .s-synopsis {
     background-image: url(images/jackie.jpg);
 }
@@ -103,12 +115,6 @@ section {
 
 .s-showtimes {
     background-image: url(images/lydia.jpg);
-}
-
-
-.section-header {
-    text-align: center;
-    text-transform: uppercase;
 }
 
 .embed-container {
