@@ -138,8 +138,10 @@ section {
 
 .showtimes-container {
     background: rgba(255, 255, 255, 0.7);
-    margin: 0 12.5%;
+    margin: 0 auto;
     padding: 50px;
+    box-sizing: border-box;
+    max-width: 1080px;
 }
 
 form {
@@ -185,17 +187,15 @@ button:hover{
     cursor: pointer;
 }
 
-@media(max-width:1000px){
-    body{
-        background-image: url(images/bottom-third-1000.jpg);
-    }
+@media(max-width:1080px){
 
+    .showtimes-container {
+        margin: 0 4%;
+        padding: 35px 4%;
+    }
 }
 
 @media(max-width:700px){
-    body{
-        background-image: url(images/bottom-third-700.jpg);
-    }
 
     .content {
         padding: 5%;
