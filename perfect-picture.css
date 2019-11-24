@@ -40,6 +40,8 @@ nav {
 .nav-list {
     list-style: none;
     text-align: center;
+    margin: 18px 0;
+    padding-inline-start: 0;
 }
 
 .nav-item {
@@ -66,7 +68,6 @@ nav {
 
 .content {
     display: block;
-    /* margin-bottom: 35px; */
 }
 
 .title-frame {
@@ -216,11 +217,5 @@ button:hover{
 
     h2, form, input{
         text-align: center;
-    }
-}
-
-@media(max-width:560px){
-    body {
-        background-image: url(images/bottom-third-560.jpg);
     }
 }
