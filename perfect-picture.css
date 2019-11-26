@@ -175,6 +175,12 @@ section {
     text-align: center;
 }
 
+.location {
+    color:#663399;
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .showing h4{
     font-weight: 700;
     margin-bottom: 5px;
@@ -182,8 +188,7 @@ section {
 
 .showing p{
     line-height: 1.2;
-    margin: 6px 0 12px;
-    
+    margin: 6px 0 6px;
 }
 
 .promo-container {
