@@ -66,13 +66,13 @@ nav {
     display: block;
 }
 
+.title-poster-700 {
+    display: none;
+}
+
 .title-poster-700,
 .title-poster {
     margin-top: 55px;
-}
-
-.title-poster-700 {
-    display: none;
 }
 
 .content {
@@ -101,7 +101,7 @@ h3 {
 section {
     background-size: cover;
     background-position: center center;
-    min-height: 500px;
+    min-height: 450px;
     margin: 0;
     padding: 20px 0;
 }
@@ -111,6 +111,12 @@ section {
     text-transform: uppercase;
     color: #333;
     font-weight: 700;
+    margin-top: 0;
+}
+
+.poster{
+    padding-top: 1px;
+    padding-bottom: 0px;
 }
 
 .s-synopsis {
