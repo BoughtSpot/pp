@@ -144,9 +144,27 @@ section {
 .showtimes-container {
     background: rgba(255, 255, 255, 0.7);
     margin: 0 auto;
-    padding: 50px;
+    padding: 0 50px 10px;
     box-sizing: border-box;
     max-width: 1080px;
+}
+
+.showing {
+    margin: 10px 0 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.showing h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.showing p{
+    line-height: 1.2;
+    margin: 6px 0 12px;
+    
 }
 
 .promo-container {
