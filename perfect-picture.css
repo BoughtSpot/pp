@@ -64,7 +64,11 @@ nav {
 .title-poster {
     width: 100%;
     display: block;
-    margin-top: 50px;
+}
+
+.title-poster-700,
+.title-poster {
+    margin-top: 55px;
 }
 
 .title-poster-700 {
