@@ -151,6 +151,12 @@ section {
     max-width: 1080px;
 }
 
+.blend{
+    mix-blend-mode: saturation;
+    height: 200px;
+    width: 80%;
+}
+
 .showing {
     margin: 10px 0 20px;
     display: inline-block;
