@@ -151,7 +151,7 @@ section {
     height: 100%;
 }
 
-#promo {
+.s-promo h2 {
     color: #fff;
 }
 
@@ -184,6 +184,7 @@ section {
 .showing h4{
     font-weight: 700;
     margin-bottom: 5px;
+    line-height: 1.25;
 }
 
 .showing p{
