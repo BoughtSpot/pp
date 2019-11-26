@@ -86,6 +86,11 @@ h2 {
     padding: 15px 0;
 }
 
+h3 {
+    color: #c90f66;
+    font-weight: 400;
+}
+
 section {
     background-size: cover;
     background-position: center center;
@@ -109,8 +114,9 @@ section {
     background-image: url(images/adjetey.jpg);
 }
 
-.s-showtimes {
+.s-promo {
     background-image: url(images/lydia.jpg);
+    padding-bottom: 60px;
 }
 
 .embed-container {
@@ -131,7 +137,7 @@ section {
     height: 100%;
 }
 
-#showtimes {
+#promo {
     color: #fff;
 }
 
@@ -143,10 +149,19 @@ section {
     max-width: 1080px;
 }
 
+.promo-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+    max-width: 1080px;
+}
+
 form {
     display: block;
-    margin-top: 40px;
-    padding: 5%;
+    margin-top: 5px;
+    padding: 30px 5%;
 }
 
 label {
