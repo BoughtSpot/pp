@@ -121,6 +121,7 @@ section {
 
 .s-synopsis {
     background-image: url(images/jackie.jpg);
+    text-align: justify;
 }
 
 .s-trailer {
@@ -155,7 +156,6 @@ section {
 }
 
 .showtimes-container {
-    background: rgba(255, 255, 255, 0.7);
     margin: 0 auto;
     padding: 0 50px 10px;
     box-sizing: border-box;
